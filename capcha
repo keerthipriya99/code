@@ -1,0 +1,17 @@
+program to generate capcha:
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char str[10];
+int num,i=0,res;
+clrscr();
+scanf("%s %d",&str,&num);
+for(i=0;str[i]!='\0';i++)
+{
+str[i]=str[i]+num;
+}
+printf("%s",str)
+getch()
+}
+
